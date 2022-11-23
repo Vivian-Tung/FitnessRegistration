@@ -1,5 +1,3 @@
-# Fitness Registration
-
 # What it does
 The goal of this system is to manage the records of all the members registering to the fitness studio.
 The fitness studio keeps the following information about all its members: the member's name (first and last name), cell phone number, email address and credit card number. It allows the user to create new records, remove records, search for records, and modify records.
