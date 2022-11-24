@@ -20,8 +20,6 @@
 
 class List  {
 
-/* You cannot change this file (i.e., the definition of this class). */
-
 private:
 
     constexpr static const int CAPACITY = 5; 
