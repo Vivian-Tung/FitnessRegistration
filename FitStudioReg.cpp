@@ -106,7 +106,7 @@ void add(List* Members) {
 }
 
 
-void remove(List* Members) { //test -> enter jiv, viv, jim,  delete jiv but since they are all under aMember what happens?
+void remove(List* Members) {
 	
 	bool notValid = true;
 	string aPhone;
@@ -114,7 +114,6 @@ void remove(List* Members) { //test -> enter jiv, viv, jim,  delete jiv but sinc
 	//ensure number is valid
 	do {
 		cout << "Please provide the phone number of the member you would like to remove: \n";
-		//need ot provide the name of the entity -> problem cause i named it as aMember above rip 
 		cin >> aPhone;
 		if (checkPhone(aPhone)) {
 			notValid = false;
