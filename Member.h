@@ -20,8 +20,6 @@
 using namespace std;
 
 class Member {
-
-/* You cannot change this file (i.e., the definition of this class). */
  	
 private:
 
@@ -33,7 +31,6 @@ private:
     string creditCard;
 
     // Description: Sets the member's cell phone number - Private method
-    // Reflection: Why is this method not part of the public interface?
     void setPhone(const string aPhone);
 
 public:
